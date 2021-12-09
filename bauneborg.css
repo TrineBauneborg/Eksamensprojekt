@@ -1,0 +1,57 @@
+body {font-family: 'MingLiU_HKSCS-ExtB';}
+
+style{
+  color: #F9E08E;
+}
+
+.header {
+  background-color: #2B6025;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  height: 37px;
+  width:100%;
+  float: right;
+}
+
+.header a {
+  float: left;
+  color: #DFAB2E;
+  text-decoration: none;
+  text-align:center;
+  font-size: 17px;
+  width: 25%;   
+}
+
+
+.header a:hover {
+  color: #F9E08E;
+}
+
+.header a.active {
+  color: #F9E08E;
+}
+
+body{
+  background-color: #f9e08e;
+}
+
+.banner {
+  width:100%;
+  margin-top: 10px;
+  height: 235px;
+  float: left;
+  background-color: #DFAB2E;
+  display: flex;
+  justify-content: center;
+}
+
+.Trine{
+  height: 40%;
+}
+
+.velkommen{
+  margin: 20px;
+  margin-top: 120px;
+  position: absolute;
+  text-align: center;
+}
