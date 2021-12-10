@@ -51,7 +51,7 @@ body{
 
 .velkommen{
   margin: 20px;
-  margin-top: 130px;
+  margin-top: 150px;
   position: absolute;
   text-align: center;
   font-family: 'perpetua';
@@ -60,11 +60,12 @@ body{
 }
 
 .tekst1{
-  width:40%;
-  height: 150px;
+  width:100%;
+  height: 40px;
   float: left;
-  margin-top: 200px;
-  font-family: 'perpetua';
+  margin-top: 210px;
+  margin-bottom: 10px;
+  font-family: 'MingLiU_HKSCS-ExtB';
   color: #B35F0C
 }
 
@@ -82,90 +83,184 @@ body{
 
 .tekst2{
   width:100%;
-  height: 150px;
+  height: 40px;
   float: left;
   margin-top: 50px;
-  font-family: 'perpetua';
+  font-family: 'MingLiU_HKSCS-ExtB';
   color: #B35F0C
 }
 .billedboks2{
-  margin-top: 50px;
+  margin-top: 10px;
   width:100%;
   height: 200px;
   float: left;
   background-color: #DFAB2E;
   display: flex;
-  
+  justify-content: center;
 }
 
 .tekst3{
   width:100%;
-  height: 150px;
+  height: 40px;
   float: left;
   margin-top: 50px;
-  font-family: 'perpetua';
+  font-family: 'MingLiU_HKSCS-ExtB';
   color: #B35F0C
 }
 .billedboks3{
-  margin-top: 50px;
+  margin-top: 10px;
   width:100%;
   height: 200px;
   float: left;
   background-color: #DFAB2E;
   display: flex;
-  
+  justify-content: center;
 }
 
 .tekst4{
   width:100%;
-  height: 150px;
+  height: 40px;
   float: left;
   margin-top: 50px;
-  font-family: 'perpetua';
+  font-family: 'MingLiU_HKSCS-ExtB';
   color: #B35F0C
 }
 .billedboks4{
-  margin-top: 50px;
+  margin-top: 10px;
   width:100%;
   height: 200px;
   float: left;
   background-color: #DFAB2E;
   display: flex;
-  
+  justify-content: center;
 }
 
 .tekst5{
   width:100%;
-  height: 150px;
+  height: 40px;
   float: left;
   margin-top: 50px;
-  font-family: 'perpetua';
+  font-family: 'MingLiU_HKSCS-ExtB';
   color: #B35F0C
 }
 .billedboks5{
-  margin-top: 50px;
+  margin-top: 10px;
   width:100%;
   height: 200px;
   float: left;
   background-color: #DFAB2E;
   display: flex;
-  
+  justify-content: center;
 }
 
 .tekst6{
   width:100%;
-  height: 150px;
+  height: 40px;
   float: left;
   margin-top: 50px;
-  font-family: 'perpetua';
+  margin-bottom: 10px;
+  font-family: 'MingLiU_HKSCS-ExtB';
   color: #B35F0C
 }
 .billedboks6{
-  margin-top: 50px;
+  margin-top: 10px;
   width:100%;
   height: 200px;
   justify-content: center;
   background-color: #DFAB2E;
   display: flex; 
+  justify-content: center;
 }
 
+.footer{
+  display: flex;
+  background-color: #2B6025;
+  margin-top: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  height: 70px;
+  width:100%;
+  float: right;
+  font-family: 'MingLiU_HKSCS-ExtB'
+}
+
+.textfooter {
+  margin-top: 15px;
+  float: left;
+  color: #DFAB2E;
+  text-decoration: none;
+  text-align:center;
+  font-size: 17px;
+  width: 100%;  
+}
+
+@media screen and (min-width:550px) {
+  
+  .header{
+    padding-bottom: 22px;
+  }
+
+  .header a {
+    padding-bottom: 40px;
+    font-size: 30px;  
+  }
+  
+  .banner {
+    height: 400px;
+  }
+  
+  .velkommen{
+    margin-top: 450px;
+    font-size: 30px;
+  }
+  
+  .tekst1{
+    font-size: 30px;
+    margin-top: 300px;
+  }
+  
+  .billedboks1{
+    height: 400px;
+    width: 40%;
+  }
+
+  .tekst2{
+    font-size: 30px;
+  }
+  .billedboks2{
+    height: 400px;
+    width:40%;
+  }
+  
+  .tekst3{
+    font-size: 30px;
+  }
+  .billedboks3{
+    height: 400px;
+  }
+  
+  .tekst4{
+    font-size: 30px;
+  }
+  .billedboks4{
+    height: 400px;
+  }
+  
+  .tekst5{
+    font-size: 30px;
+  }
+  .billedboks5{
+    height: 400px;
+  }
+  
+  .tekst6{
+   font-size: 30px;
+  }
+  .billedboks6{
+    height: 400px;
+  }
+
+  .textfooter {
+    font-size: 30px; 
+  }
+}
