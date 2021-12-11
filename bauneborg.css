@@ -38,39 +38,73 @@ body{
 .banner {
   width:100%;
   margin-top: 10px;
-  height: 120px;
+  height: 100;
   float: left;
   background-color: #DFAB2E;
   display: flex;
   justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .Trine{
-  height: 100%;
+  width: 95%;
 }
 
 .velkommen{
   margin: 20px;
-  margin-top: 150px;
-  position: absolute;
+  margin-top: 510px;
+  position: relative;
   text-align: center;
   font-family: 'perpetua';
   font-size: 18px;
   color: #B35F0C
 }
 
+.tekst{
+  font-family: 'perpetua';
+  font-size: 18px;
+  color: #B35F0C;
+  margin-top: 470px;
+}
+
+.kontaktboks{
+  margin-top: 10px;
+  background-color: #DFAB2E;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mig{
+  width: 95%;
+}
+
+.ikonboks{
+  margin-top: 110px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.li{
+  width: 30%;
+}
+
 .tekst1{
+  margin-top: 20px;
   width:100%;
   height: 40px;
   float: left;
-  margin-top: 210px;
   margin-bottom: 10px;
-  font-family: 'MingLiU_HKSCS-ExtB';
+  font-family: 'perpetua';
   color: #B35F0C
 }
 
 .billedboks1{
-  margin-top: 200px;
   width: 100%;
   height: 200px;
   background-color: #DFAB2E;
@@ -86,7 +120,7 @@ body{
   height: 40px;
   float: left;
   margin-top: 50px;
-  font-family: 'MingLiU_HKSCS-ExtB';
+  font-family: 'perpetua';
   color: #B35F0C
 }
 .billedboks2{
@@ -104,7 +138,7 @@ body{
   height: 40px;
   float: left;
   margin-top: 50px;
-  font-family: 'MingLiU_HKSCS-ExtB';
+  font-family: 'perpetua';
   color: #B35F0C
 }
 .billedboks3{
@@ -122,7 +156,7 @@ body{
   height: 40px;
   float: left;
   margin-top: 50px;
-  font-family: 'MingLiU_HKSCS-ExtB';
+  font-family: 'perpetua';
   color: #B35F0C
 }
 .billedboks4{
@@ -140,7 +174,7 @@ body{
   height: 40px;
   float: left;
   margin-top: 50px;
-  font-family: 'MingLiU_HKSCS-ExtB';
+  font-family: 'perpetua';
   color: #B35F0C
 }
 .billedboks5{
@@ -159,7 +193,7 @@ body{
   float: left;
   margin-top: 50px;
   margin-bottom: 10px;
-  font-family: 'MingLiU_HKSCS-ExtB';
+  font-family: 'perpetua';
   color: #B35F0C
 }
 .billedboks6{
@@ -170,6 +204,31 @@ body{
   background-color: #DFAB2E;
   display: flex; 
   justify-content: center;
+}
+
+.tekst7{
+  width:100%;
+  height: 40px;
+  float: left;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-family: 'perpetua';
+  color: #B35F0C
+}
+.billedboks7{
+  width: 500px;
+	height: 500px;
+	background: url('blomst-01.png') 0 0 no-repeat; 	 
+	animation: play 5s steps(13) infinite;margin-top: 10px;
+  justify-content: center;
+  background-color: #DFAB2E;
+  display: flex; 
+}
+
+
+@keyframes play {
+	0%{background-position:0px;}
+   100% { background-position: -6500px; }
 }
 
 .footer{
@@ -206,17 +265,34 @@ body{
   }
   
   .banner {
-    height: 400px;
+    width: 400px;
+    margin-left: 35%;
+    margin-bottom: 100px;
   }
   
   .velkommen{
-    margin-top: 450px;
     font-size: 30px;
+    margin: 100px;
   }
   
+
+.tekst{
+  font-size: 30px;
+  margin-top: 550px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+  .kontaktboks{
+    width: 400px;
+    margin-left: 35%;
+  }
+  
+  .li{
+    width: 20%;
+  }
+
   .tekst1{
     font-size: 30px;
-    margin-top: 300px;
   }
   
   .billedboks1{
@@ -226,10 +302,13 @@ body{
 
   .tekst2{
     font-size: 30px;
+    display: flex;
+    justify-content: right;
   }
   .billedboks2{
     height: 400px;
     width:40%;
+    float: right;
   }
   
   .tekst3{
@@ -237,13 +316,18 @@ body{
   }
   .billedboks3{
     height: 400px;
+    width: 40%;
   }
   
   .tekst4{
     font-size: 30px;
+    display: flex;
+    justify-content: right;
   }
   .billedboks4{
     height: 400px;
+    width:40%;
+    float: right;
   }
   
   .tekst5{
@@ -251,14 +335,29 @@ body{
   }
   .billedboks5{
     height: 400px;
+    width: 40%;
   }
   
   .tekst6{
    font-size: 30px;
+   display: flex;
+    justify-content: right;
   }
   .billedboks6{
     height: 400px;
+    width:40%;
+    float: right;
   }
+
+  .tekst7{
+   font-size: 30px;
+   }
+
+   .billedboks7{
+     height: 400px;
+     width:40%;
+     float: left;
+   }
 
   .textfooter {
     font-size: 30px; 
