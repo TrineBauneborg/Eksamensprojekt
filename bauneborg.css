@@ -8,7 +8,7 @@ style{
   padding-top: 12px;
   padding-bottom: 12px;
   height: 37px;
-  width:100%;
+  width: 100%;
   float: right;
   font-family: 'MingLiU_HKSCS-ExtB'
 }
@@ -35,10 +35,9 @@ body{
   background-color: #f9e08e;
 }
 
-.banner {
+.portrætboks {
   width:100%;
   margin-top: 10px;
-  height: 100;
   float: left;
   background-color: #DFAB2E;
   display: flex;
@@ -47,41 +46,29 @@ body{
   padding-bottom: 10px;
 }
 
-.Trine{
+.portræt{
   width: 95%;
 }
 
 .velkommen{
   margin: 20px;
-  margin-top: 510px;
-  position: relative;
-  text-align: center;
+  margin-top: 630px;
   font-family: 'perpetua';
   font-size: 18px;
-  color: #B35F0C
+  color: #B35F0C;
+  text-align: center;
 }
 
 .tekst{
   font-family: 'perpetua';
   font-size: 18px;
   color: #B35F0C;
-  margin-top: 470px;
+  margin-top: 570px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.kontaktboks{
-  margin-top: 10px;
-  background-color: #DFAB2E;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  float: left;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.mig{
-  width: 95%;
-}
 
 .ikonboks{
   margin-top: 110px;
@@ -95,24 +82,22 @@ body{
 }
 
 .tekst1{
-  margin-top: 20px;
+  margin-top: 50px;
   width:100%;
   height: 40px;
   float: left;
-  margin-bottom: 10px;
-  font-family: 'perpetua';
-  color: #B35F0C
+  font-family: 'MingLiU_HKSCS-ExtB';
+  color: #B35F0C;
 }
 
 .billedboks1{
+  margin-top: 10px;
   width: 100%;
   height: 200px;
   background-color: #DFAB2E;
   display: flex; 
   justify-content: center;
-}
-.projekt1{
-  height: 100%;
+  float: left;
 }
 
 .tekst2{
@@ -120,7 +105,6 @@ body{
   height: 40px;
   float: left;
   margin-top: 50px;
-  font-family: 'perpetua';
   color: #B35F0C
 }
 .billedboks2{
@@ -133,103 +117,75 @@ body{
   justify-content: center;
 }
 
-.tekst3{
-  width:100%;
-  height: 40px;
-  float: left;
-  margin-top: 50px;
-  font-family: 'perpetua';
-  color: #B35F0C
-}
-.billedboks3{
-  margin-top: 10px;
-  width:100%;
-  height: 200px;
-  float: left;
-  background-color: #DFAB2E;
-  display: flex;
-  justify-content: center;
-}
-
-.tekst4{
-  width:100%;
-  height: 40px;
-  float: left;
-  margin-top: 50px;
-  font-family: 'perpetua';
-  color: #B35F0C
-}
-.billedboks4{
-  margin-top: 10px;
-  width:100%;
-  height: 200px;
-  float: left;
-  background-color: #DFAB2E;
-  display: flex;
-  justify-content: center;
-}
-
-.tekst5{
-  width:100%;
-  height: 40px;
-  float: left;
-  margin-top: 50px;
-  font-family: 'perpetua';
-  color: #B35F0C
-}
-.billedboks5{
-  margin-top: 10px;
-  width:100%;
-  height: 200px;
-  float: left;
-  background-color: #DFAB2E;
-  display: flex;
-  justify-content: center;
-}
-
-.tekst6{
-  width:100%;
-  height: 40px;
-  float: left;
-  margin-top: 50px;
-  margin-bottom: 10px;
-  font-family: 'perpetua';
-  color: #B35F0C
-}
 .billedboks6{
-  margin-top: 10px;
-  width:100%;
-  height: 200px;
-  justify-content: center;
-  background-color: #DFAB2E;
-  display: flex; 
-  justify-content: center;
-}
-
-.tekst7{
-  width:100%;
-  height: 40px;
-  float: left;
-  margin-top: 50px;
-  margin-bottom: 10px;
-  font-family: 'perpetua';
-  color: #B35F0C
-}
-.billedboks7{
-  width: 500px;
-	height: 500px;
+  width: 100%;
+	height: 200px;
 	background: url('blomst-01.png') 0 0 no-repeat; 	 
-	animation: play 5s steps(13) infinite;margin-top: 10px;
+	animation: play 5s steps(13) infinite;
+  margin-top: 10px;
   justify-content: center;
   background-color: #DFAB2E;
   display: flex; 
 }
-
 
 @keyframes play {
 	0%{background-position:0px;}
    100% { background-position: -6500px; }
 }
+
+.brødtekst1{
+  text-align: center;
+  margin: 20px;
+  font-family: perpetua;
+  color: #B35F0C;
+  font-size: 18px;
+  margin-top: 350px;
+}
+
+.brødtekst2{
+  text-align: center;
+  margin: 20px;
+  font-family: perpetua;
+  color: #B35F0C;
+  font-size: 18px;
+  margin-top: 350px;
+}
+
+.brødtekst3{
+  text-align: center;
+  margin: 20px;
+  font-family: perpetua;
+  color: #B35F0C;
+  font-size: 18px;
+  margin-top: 350px;
+}
+
+.brødtekst4{
+  text-align: center;
+  margin: 20px;
+  font-family: perpetua;
+  color: #B35F0C;
+  font-size: 18px;
+  margin-top: 350px;
+}
+
+.brødtekst5{
+  text-align: center;
+  margin: 20px;
+  font-family: perpetua;
+  color: #B35F0C;
+  font-size: 18px;
+  margin-top: 350px;
+}
+
+.brødtekst6{
+  text-align: center;
+  margin: 20px;
+  font-family: perpetua;
+  color: #B35F0C;
+  font-size: 18px;
+}
+
 
 .footer{
   display: flex;
@@ -238,9 +194,9 @@ body{
   padding-top: 12px;
   padding-bottom: 12px;
   height: 70px;
-  width:100%;
+  width: 100%;
   float: right;
-  font-family: 'MingLiU_HKSCS-ExtB'
+  font-family: 'MingLiU_HKSCS-ExtB';
 }
 
 .textfooter {
@@ -249,11 +205,11 @@ body{
   color: #DFAB2E;
   text-decoration: none;
   text-align:center;
-  font-size: 17px;
+  font-size: 20px;
   width: 100%;  
 }
 
-@media screen and (min-width:550px) {
+@media screen and (min-width:1000px) {
   
   .header{
     padding-bottom: 22px;
@@ -267,24 +223,25 @@ body{
   .banner {
     width: 400px;
     margin-left: 35%;
-    margin-bottom: 100px;
   }
   
   .velkommen{
     font-size: 30px;
-    margin: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
   }
   
 
 .tekst{
   font-size: 30px;
-  margin-top: 550px;
   margin-left: 400px;
   margin-right: 400px;
 }
-  .kontaktboks{
+
+  .portrætboks{
     width: 400px;
     margin-left: 35%;
+    margin-top: 39px;
   }
   
   .li{
@@ -305,59 +262,60 @@ body{
     display: flex;
     justify-content: right;
   }
+
   .billedboks2{
     height: 400px;
     width:40%;
     float: right;
   }
-  
-  .tekst3{
-    font-size: 30px;
-  }
-  .billedboks3{
-    height: 400px;
-    width: 40%;
-  }
-  
-  .tekst4{
-    font-size: 30px;
-    display: flex;
-    justify-content: right;
-  }
-  .billedboks4{
-    height: 400px;
-    width:40%;
-    float: right;
-  }
-  
-  .tekst5{
-    font-size: 30px;
-  }
-  .billedboks5{
-    height: 400px;
-    width: 40%;
-  }
-  
-  .tekst6{
-   font-size: 30px;
-   display: flex;
-    justify-content: right;
-  }
-  .billedboks6{
-    height: 400px;
-    width:40%;
-    float: right;
-  }
 
-  .tekst7{
-   font-size: 30px;
-   }
-
-   .billedboks7{
+   .billedboks6{
      height: 400px;
      width:40%;
-     float: left;
+     float: right;
    }
+
+   .brødtekst1{
+    margin-left: 700px;
+    font-size: 30px;
+    margin-top: 230px;
+    margin-right: 100px;
+  }
+
+  .brødtekst2{
+    margin-right: 700px;
+    font-size: 30px;
+    margin-top: 370px;
+    margin-left: 100px;
+  }
+  
+.brødtekst3{
+  margin-left: 700px;
+  font-size: 30px;
+  margin-top: 350px;
+  margin-right: 100px;
+}
+
+.brødtekst4{
+  margin-right: 700px;
+  font-size: 30px;
+  margin-top: 230px;
+  margin-left: 100px;
+}
+
+.brødtekst5{
+  margin-left: 700px;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-right: 100px;
+}
+
+.brødtekst6{
+  margin-right: 700px;
+    font-size: 30px;
+    margin-top: 340px;
+    margin-left: 100px;
+}
 
   .textfooter {
     font-size: 30px; 
